@@ -1,0 +1,23 @@
+﻿生成启动时间为 2014/6/11 23:05:18。
+     1>项目“D:\VS工程库\MFC_学生信息管理系统\MFC_学生信息管理系统\MFC_学生信息管理系统.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2012_\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC_学生信息管理系统.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MFC_MainDlg.cpp
+         MFC_MainDlg.cpp
+       Link:
+         D:\VS2012_\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS工程库\MFC_学生信息管理系统\Debug\MFC_学生信息管理系统.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2012_\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\VS工程库\MFC_学生信息管理系统\Debug\MFC_学生信息管理系统.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS工程库\MFC_学生信息管理系统\Debug\MFC_学生信息管理系统.lib" /MACHINE:X86 "Debug\MFC_学生信息管理系统.res"
+         Debug\AddGroup.obj
+         Debug\AddPersonDlg.obj
+         Debug\ADO.obj
+         Debug\AlterPerson.obj
+         Debug\MFC_MainDlg.obj
+         "Debug\MFC_学生信息管理系统.obj"
+         Debug\PersonInfo.obj
+         Debug\SelectPerson.obj
+         Debug\ShowInfo.obj
+         Debug\stdafx.obj
+         MFC_学生信息管理系统.vcxproj -> D:\VS工程库\MFC_学生信息管理系统\Debug\MFC_学生信息管理系统.exe
+     1>已完成生成项目“D:\VS工程库\MFC_学生信息管理系统\MFC_学生信息管理系统\MFC_学生信息管理系统.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.34

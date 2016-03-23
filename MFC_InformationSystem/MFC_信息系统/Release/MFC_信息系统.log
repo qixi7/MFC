@@ -1,0 +1,35 @@
+﻿生成启动时间为 2014/5/25 15:25:16。
+     1>项目“D:\VS工程库\MFC_学生信息管理系统\MFC_学生信息管理系统\MFC_学生信息管理系统.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2012_\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\MFC_学生信息管理系统.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2012_\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\MFC_学生信息管理系统.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ADO.cpp AddGroup.cpp AddPersonDlg.cpp AlterPerson.cpp MFC_MainDlg.cpp "MFC_学生信息管理系统.cpp" PersonInfo.cpp SelectPerson.cpp ShowInfo.cpp
+         ADO.cpp
+         AddGroup.cpp
+         AddPersonDlg.cpp
+         AlterPerson.cpp
+         MFC_MainDlg.cpp
+         MFC_学生信息管理系统.cpp
+         PersonInfo.cpp
+         SelectPerson.cpp
+         ShowInfo.cpp
+       Link:
+         D:\VS2012_\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS工程库\MFC_学生信息管理系统\Release\MFC_学生信息管理系统.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2012_\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\VS工程库\MFC_学生信息管理系统\Release\MFC_学生信息管理系统.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS工程库\MFC_学生信息管理系统\Release\MFC_学生信息管理系统.lib" /MACHINE:X86 /SAFESEH "Release\MFC_学生信息管理系统.res"
+         Release\AddGroup.obj
+         Release\AddPersonDlg.obj
+         Release\ADO.obj
+         Release\AlterPerson.obj
+         Release\MFC_MainDlg.obj
+         "Release\MFC_学生信息管理系统.obj"
+         Release\PersonInfo.obj
+         Release\SelectPerson.obj
+         Release\ShowInfo.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         MFC_学生信息管理系统.vcxproj -> D:\VS工程库\MFC_学生信息管理系统\Release\MFC_学生信息管理系统.exe
+     1>已完成生成项目“D:\VS工程库\MFC_学生信息管理系统\MFC_学生信息管理系统\MFC_学生信息管理系统.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:39.28
