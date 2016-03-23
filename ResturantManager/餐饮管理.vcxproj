@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{32D230FC-411E-CF23-938F-1DBCA7275B25}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\餐饮管理.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Release\餐饮管理.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\餐饮管理.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Release\餐饮管理.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\餐饮管理.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Debug\餐饮管理.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\餐饮管理.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\餐饮管理.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\142.ico" />
+    <CustomBuild Include="res\167.ico" />
+    <CustomBuild Include="res\2.ico" />
+    <CustomBuild Include="res\33.ico" />
+    <CustomBuild Include="res\42.ico" />
+    <CustomBuild Include="res\57.ico" />
+    <CustomBuild Include="res\61.ico" />
+    <CustomBuild Include="res\66.ico" />
+    <CustomBuild Include="res\71.ico" />
+    <CustomBuild Include="res\82.ico" />
+    <CustomBuild Include="res\91.ico" />
+    <CustomBuild Include="res\background1.bmp" />
+    <CustomBuild Include="res\login.bmp" />
+    <CustomBuild Include="msado15.tlh">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <CustomBuild Include="msado15.tli">
+      <FileType>Document</FileType>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Copydlg.cpp" />
+    <ClCompile Include="CPdlg.cpp" />
+    <ClCompile Include="Diancaidlg.cpp" />
+    <ClCompile Include="EmployeeWork.cpp" />
+    <ClCompile Include="JHselect.cpp" />
+    <ClCompile Include="Jiacaidlg.cpp" />
+    <ClCompile Include="Jiacaidlg1.cpp" />
+    <ClCompile Include="Jiezhangdlg.cpp" />
+    <ClCompile Include="Jinhuodlg.cpp" />
+    <ClCompile Include="Jinhuoselect.cpp" />
+    <ClCompile Include="Kaitaidlg.cpp" />
+    <ClCompile Include="Login1.cpp" />
+    <ClCompile Include="Logindlg.cpp" />
+    <ClCompile Include="Quanxiandlg.cpp" />
+    <ClCompile Include="Rcxdlg.cpp" />
+    <ClCompile Include="Returndlg.cpp" />
+    <ClCompile Include="Shuliangdlg.cpp" />
+    <ClCompile Include="SLdlg.cpp" />
+    <ClCompile Include="SpInfo.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="Ycxdlg.cpp" />
+    <ClCompile Include="Zhucedlg.cpp" />
+    <ClCompile Include="餐饮管理.cpp" />
+    <ClCompile Include="餐饮管理Dlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Copydlg.h" />
+    <ClInclude Include="CPdlg.h" />
+    <ClInclude Include="Diancaidlg.h" />
+    <ClInclude Include="EmployeeWork.h" />
+    <ClInclude Include="JHselect.h" />
+    <ClInclude Include="Jiacaidlg.h" />
+    <ClInclude Include="Jiacaidlg1.h" />
+    <ClInclude Include="Jiezhangdlg.h" />
+    <ClInclude Include="Jinhuodlg.h" />
+    <ClInclude Include="Jinhuoselect.h" />
+    <ClInclude Include="Kaitaidlg.h" />
+    <ClInclude Include="Login1.h" />
+    <ClInclude Include="Logindlg.h" />
+    <ClInclude Include="Quanxiandlg.h" />
+    <ClInclude Include="Rcxdlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Returndlg.h" />
+    <ClInclude Include="Shuliangdlg.h" />
+    <ClInclude Include="SLdlg.h" />
+    <ClInclude Include="SpInfo.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Ycxdlg.h" />
+    <ClInclude Include="Zhucedlg.h" />
+    <ClInclude Include="餐饮管理.h" />
+    <ClInclude Include="餐饮管理Dlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="餐饮管理.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="G:\about.bmp" />
+    <Image Include="G:\login.bmp" />
+    <Image Include="G:\软工大作业4PIC\pic\wr.bmp" />
+    <Image Include="res\about.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\DESK.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="餐饮管理.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

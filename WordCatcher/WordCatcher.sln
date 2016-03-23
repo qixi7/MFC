@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "软件工程作业", "软件工程作业\软件工程作业.vcxproj", "{0A60B59F-25F2-452D-92F2-F63731178942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A60B59F-25F2-452D-92F2-F63731178942}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A60B59F-25F2-452D-92F2-F63731178942}.Debug|Win32.Build.0 = Debug|Win32
+		{0A60B59F-25F2-452D-92F2-F63731178942}.Release|Win32.ActiveCfg = Release|Win32
+		{0A60B59F-25F2-452D-92F2-F63731178942}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

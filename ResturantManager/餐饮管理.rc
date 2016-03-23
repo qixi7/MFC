@@ -1,0 +1,633 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\餐饮管理.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\66.ico"
+IDI_ICON_rishouru       ICON                    "res\\61.ico"
+IDI_ICON_reg            ICON                    "res\\57.ico"
+IDI_ICON_cancel         ICON                    "res\\71.ico"
+IDI_ICON_pay            ICON                    "res\\82.ico"
+IDI_ICON_open           ICON                    "res\\91.ico"
+IDI_ICON_login          ICON                    "res\\42.ico"
+IDI_ICON_kaitai         ICON                    "res\\142.ico"
+IDI_ICON_diancai        ICON                    "res\\167.ico"
+IDI_ICON_sl             ICON                    "res\\2.ico"
+IDI_ICON_add            ICON                    "res\\33.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 281, 168
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于我们"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,4,20,20
+    DEFPUSHBUTTON   "确定",IDOK,104,145,50,20,WS_GROUP
+    LTEXT           "王潇",IDC_STATIC,44,3,18,9
+    LTEXT           "0411202",IDC_STATIC,90,3,32,10
+    LTEXT           "2012211788",IDC_STATIC,144,3,42,9
+    LTEXT           "屈艺",IDC_STATIC,44,17,18,9
+    LTEXT           "彭瑶",IDC_STATIC,44,31,18,9
+    LTEXT           "胡梦琪",IDC_STATIC,40,45,27,9
+    LTEXT           "唐凡",IDC_STATIC,44,59,18,9
+    LTEXT           "程志强",IDC_STATIC,40,73,27,9
+    LTEXT           "翟恪景",IDC_STATIC,40,129,26,9
+    LTEXT           "张梁",IDC_STATIC,44,87,18,9
+    LTEXT           "陈兴林",IDC_STATIC,40,101,26,9
+    LTEXT           "刁炼",IDC_STATIC,44,115,18,9
+    LTEXT           "0411202",IDC_STATIC,90,16,32,10
+    LTEXT           "0411201",IDC_STATIC,90,31,32,10
+    LTEXT           "0491201",IDC_STATIC,90,45,32,10
+    LTEXT           "0411202",IDC_STATIC,90,59,32,10
+    LTEXT           "0411206",IDC_STATIC,90,73,32,10
+    LTEXT           "0411206",IDC_STATIC,90,87,32,10
+    LTEXT           "0411203",IDC_STATIC,90,101,32,10
+    LTEXT           "0491202",IDC_STATIC,90,116,32,10
+    LTEXT           "0491202",IDC_STATIC,90,129,32,10
+    LTEXT           "2012211588",IDC_STATIC,144,16,42,9
+    LTEXT           "2012211723",IDC_STATIC,144,31,42,9
+    LTEXT           "2012211486",IDC_STATIC,144,46,42,9
+    LTEXT           "2012211265",IDC_STATIC,144,59,42,9
+    LTEXT           "2012214493",IDC_STATIC,144,72,42,9
+    LTEXT           "2012214548",IDC_STATIC,144,87,42,9
+    LTEXT           "2012211496",IDC_STATIC,144,101,42,9
+    LTEXT           "2012211667",IDC_STATIC,144,129,42,9
+    LTEXT           "2012211744",IDC_STATIC,144,115,42,9
+    CONTROL         191,IDC_STATIC,"Static",SS_BITMAP,199,0,81,163
+END
+
+IDD_MY_DIALOG DIALOGEX 0, 0, 431, 291
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "餐饮管理系统"
+MENU IDR_MENU1
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "当前桌台占用:",IDC_STATIC,25,117,55,11
+    LTEXT           "当前桌台剩余:",IDC_STATIC,25,167,55,11
+    LTEXT           "e",IDC_TABLE_USE,90,117,29,11
+    LTEXT           "e",IDC_TABLE_UNUSE,90,166,29,11
+    CONTROL         196,IDC_STATIC,"Static",SS_BITMAP,139,46,291,232
+END
+
+IDD_Logindlg DIALOGEX 0, 0, 251, 123
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "用户登录"
+FONT 12, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,189,13,61,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_passwd,189,33,61,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "登录",IDOK,148,83,32,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "退出",IDCANCEL,206,83,32,14,0,WS_EX_TRANSPARENT
+    CONTROL         "用户名:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | WS_GROUP,142,15,30,15,WS_EX_TRANSPARENT
+    RTEXT           "密码:",IDC_STATIC,143,36,27,10,0,WS_EX_TRANSPARENT
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP,1,3,131,117
+END
+
+IDD_kaitaidlg DIALOGEX 0, 0, 158, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "开台"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "确定",IDC_BUTTON_OK,35,108,36,13
+    PUSHBUTTON      "返回",IDC_BUTTON_return,87,108,36,13
+    EDITTEXT        IDC_EDIT1,48,87,65,12,ES_AUTOHSCROLL
+    LTEXT           "选择桌号",IDC_STATIC,9,88,32,11
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,9,8,139,68
+END
+
+IDD_jiezhangdlg DIALOGEX 0, 0, 265, 136
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "结帐"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    LTEXT           "应收：",IDC_STATIC,7,47,26,10
+    LTEXT           "实收：",IDC_STATIC,7,70,26,10
+    LTEXT           "找零：",IDC_STATIC,7,96,26,10
+    EDITTEXT        IDC_yingshou,36,45,56,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_shishou,36,70,56,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_zhaoling,36,95,56,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "再见",IDC_BUTTON_BYE,55,115,38,15
+    LTEXT           "桌号：",IDC_STATIC,7,24,26,10
+    COMBOBOX        IDC_COMBO1,36,22,56,56,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "结帐",IDC_BUTTON_OK2,5,115,38,15
+    CONTROL         "List1",IDC_mingxi,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,103,18,154,110
+    CTEXT           "消费明细",IDC_STATIC,111,3,132,13
+END
+
+IDD_diancai DIALOGEX 0, 0, 212, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "点菜"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,6,23,85,108
+    CONTROL         "List2",IDC_LIST3,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,121,23,85,108
+    PUSHBUTTON      ">>",IDC_BUTTON1,97,53,18,14
+    PUSHBUTTON      "<<",IDC_BUTTON_sub,97,80,18,14
+    PUSHBUTTON      "确定",IDC_BUTTON_OK,58,140,29,14
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,124,140,29,14
+    EDITTEXT        IDC_EDIT_zhuohao,47,0,38,13,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "桌号:",IDC_STATIC,13,0,31,12
+END
+
+IDD_jinhuodlg DIALOGEX 0, 0, 226, 144
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "进货信息"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_shuliang,70,107,34,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_queding,43,127,29,12
+    PUSHBUTTON      "重置",IDC_BUTTON_reset,87,127,29,12
+    PUSHBUTTON      "退出",IDC_BUTTON_tuichu,127,127,29,12
+    PUSHBUTTON      ">>",IDC_BUTTON_jinhuo,92,44,13,12
+    PUSHBUTTON      "<<",IDC_BUTTON_tuihuo,92,81,13,12
+    LTEXT           "进货时间:",IDC_STATIC,8,11,37,10
+    EDITTEXT        IDC_EDIT_time,48,9,54,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "进货数量：",IDC_STATIC,29,109,41,9
+    EDITTEXT        IDC_EDIT_totle,144,107,33,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "总花费",IDC_STATIC,116,110,25,9
+    CONTROL         "List1",IDC_LIST_foodlist,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,27,77,72,WS_EX_CLIENTEDGE
+    CONTROL         "List1",IDC_LIST_foodbill,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,112,22,92,77,WS_EX_CLIENTEDGE
+    LTEXT           "斤",IDC_STATIC,105,109,9,10
+    LTEXT           "元",IDC_STATIC,181,108,11,12
+END
+
+IDD_zhuce DIALOGEX 0, 0, 123, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "员工注册"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    LTEXT           "用户名：",IDC_STATIC,12,8,32,11
+    LTEXT           "密码：",IDC_STATIC,19,34,25,11
+    LTEXT           "重复密码：",IDC_STATIC,4,59,40,11
+    EDITTEXT        IDC_EDIT_name,45,7,63,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_pwd,45,32,63,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_pwd1,45,57,63,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "提交",IDC_BUTTON_OK,21,77,37,14
+    PUSHBUTTON      "重置",IDC_BUTTON_reset,65,77,37,14
+END
+
+IDD_SPinfo DIALOGEX 0, 0, 133, 166
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "商品信息登记"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    LTEXT           "商品名称：",IDC_STATIC,3,112,42,9
+    EDITTEXT        IDC_EDIT_name,49,110,39,12,ES_AUTOHSCROLL
+    LTEXT           "单价：",IDC_STATIC,17,127,28,13
+    EDITTEXT        IDC_EDIT_price,49,127,27,12,ES_AUTOHSCROLL
+    LTEXT           "元",IDC_STATIC,78,129,10,9
+    PUSHBUTTON      "添加",IDC_BUTTON_add,2,147,30,13
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,0,7,133,100
+    PUSHBUTTON      "修改",IDC_BUTTON_change,35,147,30,13
+    PUSHBUTTON      "删除",IDC_BUTTON_del,67,147,30,13
+    PUSHBUTTON      "返回",IDC_BUTTON_return,101,147,30,13
+END
+
+IDD_SHULIANG DIALOGEX 0, 0, 105, 40
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "点菜数量"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,42,3,45,12,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "要几份？：",IDC_STATIC,10,5,32,10
+    PUSHBUTTON      "确定",IDC_BUTTON,14,26,34,14
+    PUSHBUTTON      "返回",IDC_BUTTON2,57,26,34,14
+END
+
+IDD_CPinfo DIALOG 0, 0, 145, 166
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "菜式信息"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_name,27,129,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_price,100,129,23,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",IDC_BUTTON1,6,150,31,12
+    PUSHBUTTON      "修改",IDC_BUTTON_change,40,150,31,12
+    PUSHBUTTON      "删除",IDC_BUTTON_del,74,150,31,12
+    PUSHBUTTON      "退出",IDC_BUTTON2,109,150,31,12
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,12,9,121,113
+    RTEXT           "菜名",IDC_STATIC,2,131,22,13
+    RTEXT           "单价",IDC_STATIC,79,131,16,10
+    LTEXT           "元",IDC_STATIC,125,131,20,13
+END
+
+IDD_RSRCX DIALOGEX 0, 0, 115, 46
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "日收入查询"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "查询",IDC_BUTTON_CHAXUN,20,31,27,11
+    PUSHBUTTON      "退出",IDCANCEL,68,31,27,11
+    LTEXT           "年",IDC_STATIC,37,15,11,10
+    LTEXT           "月",IDC_STATIC,68,15,11,10
+    LTEXT           "日",IDC_STATIC,104,14,11,10
+    RTEXT           "请选择年月日：",IDC_STATIC,2,0,56,10
+    COMBOBOX        IDC_COMBO_year,4,13,32,37,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_month,48,13,19,37,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_day,81,13,19,31,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_YSRCX DIALOG 0, 0, 89, 53
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "月收入查询"
+FONT 10, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO_year,3,11,36,51,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_month,54,11,19,52,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "请选择年月：",IDC_STATIC,0,0,52,9
+    LTEXT           "年",IDC_STATIC,41,13,8,8
+    LTEXT           "月",IDC_STATIC,75,13,8,8
+    PUSHBUTTON      "查询",IDC_BUTTON_CHAXUN,10,32,31,13
+    PUSHBUTTON      "退出",IDC_BUTTON_tuichu,49,32,31,13
+END
+
+IDD_quanxian DIALOGEX 0, 0, 109, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户权限设置"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    LTEXT           "选择用户",IDC_STATIC,2,5,33,9
+    LTEXT           "给于权限",IDC_STATIC,2,21,36,11
+    PUSHBUTTON      "确定",IDC_BUTTON_OK,6,62,30,13
+    PUSHBUTTON      "退出",IDC_BUTTON_CANCLE,74,62,30,13
+    CONTROL         "超级管理员",IDC_RADIO_BOSS,"Button",BS_AUTORADIOBUTTON,38,19,51,10
+    CONTROL         "经理",IDC_RADIO_lingban,"Button",BS_AUTORADIOBUTTON,38,32,29,10
+    CONTROL         "营业员",IDC_RADIO_yingyeyuan,"Button",BS_AUTORADIOBUTTON,38,45,35,10
+    COMBOBOX        IDC_COMBO1,39,3,50,51,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_COPY DIALOGEX 0, 0, 159, 76
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据库备份"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "浏览",IDC_BUTTON_checkml,132,24,25,13
+    EDITTEXT        IDC_EDIT2,57,40,44,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_OK,36,58,33,14
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,91,57,33,14
+    RTEXT           "请选择要备份的目录：",IDC_STATIC,2,6,84,9
+    LTEXT           "路径:",IDC_STATIC,10,25,23,10
+    RTEXT           "请输入文件名:",IDC_STATIC,0,41,55,9
+    EDITTEXT        IDC_EDIT1,36,24,94,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DIALOG_retrun DIALOGEX 0, 0, 147, 49
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据库还原"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "浏览",IDC_BUTTON1,125,15,22,11
+    PUSHBUTTON      "还原",IDC_BUTTON_return,35,34,32,11
+    PUSHBUTTON      "退出",IDC_BUTTON_CANCEL,79,34,32,11
+    EDITTEXT        IDC_EDIT1,31,14,87,13,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "请选择数据库地址：",IDC_STATIC,1,4,74,8
+    RTEXT           "路径:",IDC_STATIC,5,17,20,10
+END
+
+IDD_jiacai DIALOG 0, 0, 211, 169
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "加减菜"
+FONT 10, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO1,71,18,44,46,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,6,39,84,97
+    CONTROL         "List1",IDC_LIST3,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,111,40,84,97
+    PUSHBUTTON      ">>",IDC_BUTTON1,93,63,15,11
+    PUSHBUTTON      "<<",IDC_BUTTON2,93,90,15,11
+    PUSHBUTTON      "确定",IDC_BUTTON3,64,145,31,15
+    PUSHBUTTON      "取消",IDC_BUTTON4,116,145,31,15
+    LTEXT           "需要服务的桌号:",IDC_STATIC,9,19,59,12
+END
+
+IDD_jinhuoselect DIALOGEX 0, 0, 116, 160
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "进货查询"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    RTEXT           "请选择年月日：",IDC_STATIC,2,0,56,10
+    PUSHBUTTON      "查询",IDC_CHAXUN_BUTTON,20,31,27,11
+    PUSHBUTTON      "退出",IDC_TUICHU_BUTTON,68,31,27,11
+    LTEXT           "年",IDC_STATIC,37,15,11,10
+    LTEXT           "月",IDC_STATIC,68,15,11,10
+    LTEXT           "日",IDC_STATIC,103,14,11,10
+    COMBOBOX        IDC_COMBO_year,4,13,32,37,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_month,48,13,19,37,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_day,81,13,19,37,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,5,53,107,107
+END
+
+IDD_EMPLOY DIALOGEX 0, 0, 193, 160
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "员工工作情况"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDCANCEL,67,141,50,19
+    CONTROL         "",IDC_EMPLOYEE_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,188,137
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "餐饮管理 Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "餐饮管理"
+            VALUE "LegalCopyright", "版权所有 (C) 2007"
+            VALUE "OriginalFilename", "餐饮管理.EXE"
+            VALUE "ProductName", "餐饮管理 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 280
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_MY_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 430
+        BOTTOMMARGIN, 289
+    END
+
+    IDD_Logindlg, DIALOG
+    BEGIN
+        RIGHTMARGIN, 250
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_kaitaidlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_jiezhangdlg, DIALOG
+    BEGIN
+    END
+
+    IDD_diancai, DIALOG
+    BEGIN
+    END
+
+    IDD_jinhuodlg, DIALOG
+    BEGIN
+    END
+
+    IDD_zhuce, DIALOG
+    BEGIN
+    END
+
+    IDD_SPinfo, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+    END
+
+    IDD_SHULIANG, DIALOG
+    BEGIN
+    END
+
+    IDD_CPinfo, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 138
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_RSRCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+    END
+
+    IDD_YSRCX, DIALOG
+    BEGIN
+    END
+
+    IDD_quanxian, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_COPY, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_retrun, DIALOG
+    BEGIN
+    END
+
+    IDD_jiacai, DIALOG
+    BEGIN
+    END
+
+    IDD_jinhuoselect, DIALOG
+    BEGIN
+    END
+
+    IDD_EMPLOY, DIALOG
+    BEGIN
+        RIGHTMARGIN, 188
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    MENUITEM "登录",                          ID_MENU_login
+    POPUP "管理"
+    BEGIN
+        POPUP "前台管理"
+        BEGIN
+            MENUITEM "开台",                          ID_MENU_kaitai
+            MENUITEM "加菜减菜",                        ID_MENU_addcai
+            MENUITEM "顾客结帐",                        ID_MENU_jiezhang
+            MENUITEM "本日结算",                        ID_MENU_jiesuan
+        END
+        POPUP "后台管理"
+        BEGIN
+            MENUITEM "进货",                          ID_MENU_jinhuo
+            MENUITEM "员工管理",                        ID_MENU_yuangong
+            MENUITEM "商品信息",                        ID_MENU_SPinfo
+            MENUITEM "菜式信息",                        ID_MENU_CP
+        END
+    END
+    POPUP "财政收支"
+    BEGIN
+        MENUITEM "日收入查询",                       ID_MENU_rishourucx
+        MENUITEM "月收入查询",                       ID_MENU_yueshouricx
+        MENUITEM "进货查询",                        ID_MENU_jinhuoselect
+    END
+    POPUP "系统管理"
+    BEGIN
+        POPUP "系统维护"
+        BEGIN
+            MENUITEM "数据库备份",                       ID_MENU_sqlcopy
+            MENUITEM "数据库还原",                       ID_MENU_return
+            MENUITEM "数据初始化",                       ID_MENU_sqlnew
+        END
+        MENUITEM "帐号权限管理",                      ID_MENU_quanxian
+        MENUITEM "员工工作情况报表",                    ID_32798
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于我们",                        ID_MENU_about
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "G:\\软工大作业4PIC\\pic\\wr.bmp"
+IDB_BITMAP1             BITMAP                  "res\\login.bmp"
+IDB_BITMAP3             BITMAP                  "res\\about.bmp"
+IDB_BITMAP4             BITMAP                  "res\\DESK.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 餐饮管理(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\餐饮管理.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
